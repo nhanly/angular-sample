@@ -1,0 +1,82 @@
+// Color modifiers suffixes:
+// darkest -> darker -> dark -> (no suffix) -> light -> lighter -> lightest
+//
+// Size modifiers scale:
+// smallest -> smaller -> small -> default -> large -> larger -> largest
+
+$color--neutral: #555555;
+$color--neutral-light: #cec3bb;
+$color--neutral-lighter: #fafafa;
+$color--neutral-lightest: #f1edea;
+$color--primary: #6f4e37;
+$color--primary-dark: #4d3626;
+$color--primary-darkest: #000;
+$color--primary-inverted: #ffffff;
+$color--secondary: #cc2424;
+$color--success: #58ce58;
+$color--info: #43b0ff;
+$color--error: #f9513e;
+$color--warning: #ff9900;
+
+$spacing--default: 16px;
+$spacing--smallest: 4px;
+$spacing--smaller: 6px;
+$spacing--small: 8px;
+$spacing--large: 24px;
+
+$background-color--default: $color--neutral-lightest;
+$background-color--hover: $color--neutral-light;
+
+$border-color--default: $color--neutral-light;
+
+$border-radius--default: 3px;
+
+$font-size--default: 16px;
+$font-size--smallest: 10px;
+$font-size--smaller: 12px;
+$font-size--small: 14px;
+$font-size--large: 20px;
+$font-size--larger: 26px;
+$font-size--largest: 32px;
+$font-size--h6: 16px;
+$font-size--h5: 18px;
+$font-size--h4: 20px;
+$font-size--h3: 22px;
+$font-size--h2: 24px;
+$font-size--h1: 26px;
+
+$z-index--modal: 10000;
+
+$font-family--default: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$font-color--default: #262626;
+
+$body__background-color: #cec3bb;
+$body__background-color-white: #ffffff;
+
+$ba-button__background-color--default: $color--neutral-light;
+$ba-button__color--default: $color--neutral;
+$ba-button__color--primary: $color--primary-inverted;
+$ba-button__border-width--default: 1px;
+$ba-button__border-color--default: $color--neutral-light;
+
+// break-point
+$xs: 350px;
+$sm: 480px;
+$md: 768px;
+$lg: 1200px;
+$xl: 1400px;
+
+$border-radius--default: 4px;
+$border__color-default: #e8e8e8;
+$border__color-button: #bfbfbf;
+
+$admin-page__info-section-background-color: #fafafa;
+
+$dialog__padding-default: 40px;
+$dialog__background-border-radius: 8px;
+
+$dialog-title__font-weight-default: 500;
+
+$dialog-button__color-default: #1890ff;
+$dialog__color-default: #262626;
+$dialog__background-color-default: #fafafa;
